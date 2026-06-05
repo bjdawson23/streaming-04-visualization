@@ -224,7 +224,16 @@ Clear the terminal, then start the consumer.
 ```shell
 clear
 uv run python -m streaming.kafka_consumer_case
+uv run python -m streaming.kafka_producer_dawson
+uv run python -m streaming.kafka_consumer_dawson
 ```
+
+## Phase 5 output
+
+- updated producer, consumer and visualization to process 20 messages.
+- changed format of the chart
+
+[Live_Chart](src/streaming/data_validation/data_contract_dawson.py)
 
 To start fresh, see
 [manage topics](https://denisecase.github.io/pro-analytics-02/kafka/manage-topics/)
