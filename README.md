@@ -230,7 +230,8 @@ uv run python -m streaming.kafka_consumer_dawson
 
 ## Phase 5 output
 
-- updated producer, consumer and visualization to process 20 messages.
+- updated producer, consumer, and visualization to default to 20 messages.
+- changed the live chart colors and styling for the Dawson version.
 - changed format of the chart
 
 [Live_Chart](src/streaming/data_validation/data_contract_dawson.py)
